@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(238, 204, 31);
+}
+.form{
+    margin: 100px auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(235, 235, 245);
+    width: 500px;
+}
