@@ -1,11 +1,59 @@
 body{
-    background-color: rgb(238, 204, 31);
+    background-color: rgb(238, 181, 9);
 }
 .form{
     margin: 100px auto;
     display: flex;
-    text-align: center;
     flex-direction: column;
     background-color: rgb(235, 235, 245);
     width: 500px;
+}
+
+.titleForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.titleForm .monTitre{
+    border-left: 8px solid rgb(238, 181, 9);
+    padding-left: 10px;
+    width: 300px;
+}
+
+.bodyForm{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.bodyForm label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bodyForm input{
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(207, 199, 199);
+}
+
+.bodyForm button{
+    background-color: rgb(238, 181, 9);
+    margin-top: 20px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bodyForm p{
+    margin: 15px auto;
+}
+
+.bodyForm a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(238, 181, 9);
 }
